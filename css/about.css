@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+ *, *:after, *:before {
+	 box-sizing: border-box;
+}
+ body {
+	 font-family: "DM Sans", sans-serif;
+	 line-height: 1.5;
+   background-color: #d7f2fb;
+
+	 
+}
+
+  
+  html {
+    box-sizing: border-box;
+  }
+
+  
+  .column {
+    float: left;
+    width: 50%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+
+  
+  .about-section {
+    margin-top: 30px;
+    padding: 50px;
+    text-align: center;
+    background-color: #12a396 !important;
+    color: white;
+  }
+
+  @media(max-width:900px){
+    .about-section{
+      padding: 20px;
+    }
+  }
+  .card-body{
+    text-align: left;
+  }
+
+  .royal_blue {
+    color: #2c53c7;
+  }
+  
+  .contactbtn{
+    width: 60%;    
+  }
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+
+  .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-size: cover; */
+    
+  }
+
+  .img img{
+    width: 50%;
+  }
+  
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+
+p{
+  font-size:"18px";
+  font-style:"normal";
+  font-variant:"normal";
+  font-weight:"400";
+  letter-spacing:"normal";
+  line-height:"28.8px";
+  text-decoration:"none solid rgba(0; 0; 0; 0.88)";
+  text-align:"start";
+  text-indent:"0px";
+}
+    
+
+.bg-image{
+
+ 
+  overflow: hidden;
+  padding-bottom: 55%;
+  background-repeat: no-repeat;
+  background-size: 120%;
+  background-position: 27% 32%;
+  position: relative;
+
+}
+
+
+
+
+.searchbar-highlight {
+  background-color: #102b55;  
+  animation-name: glow;
+  animation-fill-mode: forwards;
+  animation-duration: 3s;
+  background-image: linear-gradient(
+    128deg, rgba(89, 72, 21, 0) 39%,
+    rgba(250, 245, 245, 0.8474025974025974)
+    46%, rgba(89, 72, 21, 0) 53%);
+animation-name: wavy;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+margin: 10px 10px;
+}
+
+
+@keyframes wavy {
+  0% {
+      background-position: -400px 0px,
+      -400px 0px, -400px 0px, -400px 0px;
+  }
+  100% {
+      background-position: 800px 0px,
+      800px 0px, 800px 0px, 800px 0px;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 0px;
+  margin-top: 8px !important;
+}

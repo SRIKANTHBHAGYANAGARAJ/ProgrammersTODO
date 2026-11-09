@@ -1,0 +1,122 @@
+
+  small {
+    font-size: 80%;
+  }
+
+  /**
+   * Correct the padding in Firefox.
+   */
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  
+
+
+  
+  .s004 {    
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;    
+    padding: 15px;
+  }
+  
+  .s004 form {
+    width: 100%;
+    max-width: 790px;
+  }
+  
+  .s004 form legend {
+    font-size: 36px;
+    
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .s004 form .inner-form {
+    width: 100%;
+    margin-bottom: 0.6rem;
+  
+  }
+  
+  .s004 form .inner-form .input-field {
+    padding: 2px 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white ;
+    font-size: 1.2rem;
+    padding: 6px 10px;
+    border-radius: 10px;    
+  }
+ 
+  
+ 
+  
+  .s004 form .inner-form .input-field .btn-search {
+    width: 70px;
+    height: 100%;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    cursor: pointer;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ 
+
+  
+  .btn-search i{
+    width: 30px;
+    height: 30px;
+    font-size: 26px;
+    transition: all .2s ease-out, color .2s ease-out;
+    color: #1a237e;
+  }
+
+  
+  
+  
+  .suggestion-wrap {
+    padding: 0 15px;
+  }
+  
+  .suggestion-wrap span {
+    font-size: 14px;
+    font-family: 'Helvetica', sans-serif;
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 32px;
+    color: rgb(121, 16, 16);
+    border-radius: 16px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .glassy{
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5); 
+  }
+  .searchinput{
+    border: none;
+    outline: none;
+    background-color: #f7f7f7;
+    border: none;
+    color: #595c97b2;
+    padding: 7px 13px;
+    font-weight: 900;
+    text-transform: capitalize;
+  }
+  .searchinput:focus{
+    border: none;
+    background-color: #f2f3f7;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+  }
